@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEMUM, Premium Sneakers</title>
+<meta name="description" content="NEMUM premium sneakers. Featherlight knit runners in white, grey and muted gold. The Premium Collection, from €29.99.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,700;0,800;0,900;1,800;1,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a class="logo" href="#top" aria-label="NEMUM home">NEMUM<span class="logo-dot">.</span></a>
+  <nav class="main-nav" aria-label="Main">
+    <a href="#collection">Collection</a>
+    <a href="#craft">Craft</a>
+    <a href="#reviews">Reviews</a>
+  </nav>
+  <button class="bag-btn" id="bagBtn" type="button" aria-label="Shopping bag">
+    <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5.5 8h13l-1.1 12.1a1.5 1.5 0 0 1-1.5 1.4H8.1a1.5 1.5 0 0 1-1.5-1.4L5.5 8Z"/><path d="M8.5 10V6.5a3.5 3.5 0 0 1 7 0V10"/></svg>
+    <span class="bag-count" id="bagCount">0</span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-word" aria-hidden="true">NEMUM</div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="hero-copy">
+      <p class="hero-kicker rise"><span class="kicker-line"></span>New Season Drop 07</p>
+      <h1 class="hero-title">
+        <span class="wline"><span class="wword">Walk</span></span>
+        <span class="wline"><span class="wword">on</span> <span class="wword gold-i">air.</span></span>
+      </h1>
+      <p class="hero-sub rise">Featherlight knit runners in white, grey and muted gold. Engineered for the street, finished like jewellery.</p>
+      <div class="hero-cta rise">
+        <a class="btn-gold" href="#collection">Shop the collection
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn-ghost" href="#craft">Explore the craft</a>
+      </div>
+      <p class="hero-price rise">Featured: Cloudrunner Aero, <strong>€39.99</strong></p>
+    </div>
+
+    <div class="hero-stage" id="heroStage">
+      <div class="hero-tilt" id="heroTilt">
+        <div class="hero-float">
+          <img class="hero-shoe" id="heroShoe" src="img/hero-sneaker.webp" alt="NEMUM Cloudrunner Aero sneaker in white and grey with muted gold details, floating on black" width="1400" height="933" fetchpriority="high">
+        </div>
+      </div>
+      <div class="hero-shadow" id="heroShadow" aria-hidden="true"></div>
+      <div class="hero-ring" aria-hidden="true"></div>
+    </div>
+
+    <a class="scroll-hint" href="#collection" aria-label="Scroll to the collection">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Free express shipping over €75</span><i>◆</i>
+      <span>30-day easy returns</span><i>◆</i>
+      <span>Carbon-neutral delivery</span><i>◆</i>
+      <span>New drops every Friday</span><i>◆</i>
+      <span>Free express shipping over €75</span><i>◆</i>
+      <span>30-day easy returns</span><i>◆</i>
+      <span>Carbon-neutral delivery</span><i>◆</i>
+      <span>New drops every Friday</span><i>◆</i>
+    </div>
+  </div>
+
+  <!-- COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="section-head reveal">
+      <p class="section-kicker">The Line-Up</p>
+      <h2>Premium <em>Collection</em></h2>
+      <p class="section-sub">Six silhouettes. One palette. Every pair under forty euros.</p>
+    </div>
+
+    <div class="grid" id="grid">
+      <article class="card reveal" style="--d:.0s">
+        <div class="card-media">
+          <span class="card-glow" aria-hidden="true"></span>
+          <img src="img/shoe-cloudrunner.webp" alt="Cloudrunner Aero sneaker in white and grey with muted gold accents" width="1000" height="667" loading="lazy">
+          <span class="card-badge">Best Seller</span>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3>Cloudrunner Aero</h3>
+            <p class="card-cat">Road Running</p>
+          </div>
+          <p class="card-price">€39.99</p>
+        </div>
+        <button class="add-btn" type="button" data-name="Cloudrunner Aero">Add to bag
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </article>
+
+      <article class="card reveal" style="--d:.08s">
+        <div class="card-media">
+          <span class="card-glow" aria-hidden="true"></span>
+          <img src="img/shoe-velocity.webp" alt="Velocity Knit sneaker in light heather grey knit" width="1000" height="667" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3>Velocity Knit</h3>
+            <p class="card-cat">Tempo Training</p>
+          </div>
+          <p class="card-price">€34.99</p>
+        </div>
+        <button class="add-btn" type="button" data-name="Velocity Knit">Add to bag
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </article>
+
+      <article class="card reveal" style="--d:.16s">
+        <div class="card-media">
+          <span class="card-glow" aria-hidden="true"></span>
+          <img src="img/shoe-court.webp" alt="Court Classic sneaker in white leather with grey suede toe" width="1000" height="667" loading="lazy">
+          <span class="card-badge gold-badge">New</span>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3>Court Classic</h3>
+            <p class="card-cat">Everyday Leather</p>
+          </div>
+          <p class="card-price">€29.99</p>
+        </div>
+        <button class="add-btn" type="button" data-name="Court Classic">Add to bag
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </article>
+
+      <article class="card reveal" style="--d:.0s">
+        <div class="card-media">
+          <span class="card-glow" aria-hidden="true"></span>
+          <img src="img/shoe-phantom.webp" alt="Phantom Flex sneaker in charcoal and graphite grey" width="1000" height="667" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3>Phantom Flex</h3>
+            <p class="card-cat">Night Running</p>
+          </div>
+          <p class="card-price">€36.99</p>
+        </div>
+        <button class="add-btn" type="button" data-name="Phantom Flex">Add to bag
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </article>
+
+      <article class="card reveal" style="--d:.08s">
+        <div class="card-media">
+          <span class="card-glow" aria-hidden="true"></span>
+          <img src="img/shoe-stratus.webp" alt="Stratus Motion sneaker in white with muted gold heel detail" width="1000" height="667" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3>Stratus Motion</h3>
+            <p class="card-cat">Lifestyle Chunky</p>
+          </div>
+          <p class="card-price">€37.99</p>
+        </div>
+        <button class="add-btn" type="button" data-name="Stratus Motion">Add to bag
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </article>
+
+      <article class="card reveal" style="--d:.16s">
+        <div class="card-media">
+          <span class="card-glow" aria-hidden="true"></span>
+          <img src="img/shoe-drift.webp" alt="Drift Runner sneaker in soft grey suede and mesh" width="1000" height="667" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <h3>Drift Runner</h3>
+            <p class="card-cat">Retro Suede</p>
+          </div>
+          <p class="card-price">€32.99</p>
+        </div>
+        <button class="add-btn" type="button" data-name="Drift Runner">Add to bag
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+      </article>
+    </div>
+  </section>
+
+  <!-- CRAFT / BRAND -->
+  <section class="craft" id="craft">
+    <div class="craft-inner reveal">
+      <p class="section-kicker">The Craft</p>
+      <h2>Engineered in the dark.<br><em>Built for the street.</em></h2>
+      <p class="craft-text">Every NEMUM pair starts as a single thread of recycled yarn, knitted into a seamless upper, then bonded to a nitrogen-infused midsole. No glue lines, no wasted panels, nothing you do not need. Just a shoe that disappears on your foot and turns heads on the pavement.</p>
+      <div class="stats">
+        <div class="stat" data-drill="weight" role="button" tabindex="0">
+          <p class="stat-num"><span class="count" data-count="212">0</span><span class="stat-unit">g</span></p>
+          <p class="stat-label">Featherlight build</p>
+        </div>
+        <div class="stat" data-drill="energy" role="button" tabindex="0">
+          <p class="stat-num"><span class="count" data-count="87">0</span><span class="stat-unit">%</span></p>
+          <p class="stat-label">Energy return</p>
+        </div>
+        <div class="stat" data-drill="recycled" role="button" tabindex="0">
+          <p class="stat-num"><span class="count" data-count="72">0</span><span class="stat-unit">%</span></p>
+          <p class="stat-label">Recycled knit upper</p>
+        </div>
+      </div>
+      <div class="drill-box" id="drillBox" hidden>
+        <h3 id="drillTitle"></h3>
+        <p id="drillBody"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS STRIP -->
+  <section class="reviews" id="reviews">
+    <div class="reviews-inner reveal">
+      <p class="stars" aria-label="Rated 4.9 out of 5">★★★★★</p>
+      <blockquote>“The lightest shoes I have ever owned. They look like jewellery and run like race cars.”</blockquote>
+      <div class="reviewer-row"><img class="reviewer-avatar" src="img/avatar-marta.webp" alt="Portrait of Marta K."><p class="reviewer">Marta K., Berlin · Verified buyer</p></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <p class="logo">NEMUM<span class="logo-dot">.</span></p>
+      <p class="footer-line">Premium sneakers in white, grey and muted gold. Designed in the dark, worn everywhere.</p>
+    </div>
+    <nav class="footer-col" aria-label="Shop">
+      <h4>Shop</h4>
+      <a href="#collection">Premium Collection</a>
+      <a href="#collection">New Arrivals</a>
+      <a href="#collection">Best Sellers</a>
+    </nav>
+    <nav class="footer-col" aria-label="Company">
+      <h4>Company</h4>
+      <a href="#craft">Our Craft</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#top">Back to top</a>
+    </nav>
+    <nav class="footer-col" aria-label="Support">
+      <h4>Support</h4>
+      <a href="#top">Shipping</a>
+      <a href="#top">Returns</a>
+      <a href="#top">Size Guide</a>
+    </nav>
+  </div>
+  <p class="footer-base">© 2026 NEMUM. All rights reserved. Walk on air.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+
+<div class="detail-scrim" id="detailScrim" hidden></div>
+<section class="detail-sheet" id="detailSheet" aria-hidden="true" aria-label="Product detail">
+  <button class="sheet-close" id="detailClose" type="button" aria-label="Close detail">&times;</button>
+  <div class="sheet-media"><img id="dImg" src="img/shoe-cloudrunner.webp" alt=""></div>
+  <div class="sheet-body">
+    <p class="sheet-cat" id="dCat"></p>
+    <h3 id="dName"></h3>
+    <p class="sheet-story" id="dStory"></p>
+    <h4>What is inside</h4>
+    <ul class="sheet-list" id="dInside"></ul>
+    <h4>How it is made</h4>
+    <ol class="sheet-steps" id="dMade"></ol>
+    <h4>The numbers</h4>
+    <div class="sheet-data" id="dData"></div>
+    <h4>Your size, EU</h4>
+    <div class="sheet-opts" id="dOpts"></div>
+    <div class="sheet-foot">
+      <p class="sheet-price" id="dPrice"></p>
+      <button class="sheet-add" id="dAdd" type="button">Add to bag</button>
+    </div>
+  </div>
+</section>
+<script src="js/main.js"></script>
+</body>
+</html>
